@@ -1,6 +1,6 @@
 # Dr Quine
 
-An implementation of several [quines](https://en.wikipedia.org/wiki/Quine_(computing)) (i.e. "self-replicating programs") in C, x86-64 and Python. For official instructions please see [subject](./docs/en.subject.pdf).
+An implementation of several [quines](https://en.wikipedia.org/wiki/Quine_(computing)) (i.e. "self-replicating programs") in C, x86 assembly and Python. For official instructions please see [subject](./docs/en.subject.pdf).
 
 ## Acknowledgements
 
