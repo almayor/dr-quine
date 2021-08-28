@@ -27,16 +27,21 @@ asm/Sully/Sully : asm/Sully/Sully.s
 all : C/Colleen/Colleen C/Grace/Grace C/Sully/Sully asm/Colleen/Colleen asm/Grace/Grace asm/Sully/Sully
 
 clean :
-	$(RM) -f C/Colleen/Colleen
-	$(RM) -f C/Grace/Grace C/Grace/Grace_kid.c
-	$(RM) -f C/Sully/Sully C/Sully/Sully_*
+	$(RM) -f C/Grace/Grace_kid.c
+	$(RM) -f C/Sully/Sully_*
 	$(RM) -f python/Grace/Grace_kid.py
 	$(RM) -f python/Sully/Sully_*.py
-	$(RM) -f asm/Colleen/Colleen.o asm/Colleen/Colleen
-	$(RM) -f asm/Grace/Grace.o asm/Grace/Grace asm/Grace/Grace_kid.s
-	$(RM) -f asm/Sully/Sully.o asm/Sully/Sully asm/Sully/Sully_*
+	$(RM) -f asm/Colleen/Colleen.o
+	$(RM) -f asm/Grace/Grace.o asm/Grace/Grace_kid.s
+	$(RM) -f asm/Sully/Sully.o asm/Sully/Sully_*
 
 fclean : clean
+	$(RM) -f C/Colleen/Colleen
+	$(RM) -f C/Grace/Grace
+	$(RM) -f C/Sully/Sully
+	$(RM) -f asm/Colleen/Colleen
+	$(RM) -f asm/Grace/Grace
+	$(RM) -f asm/Sully/Sully
 
 re : fclean all
 
