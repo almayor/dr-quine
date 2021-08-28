@@ -11,3 +11,6 @@ asm/Colleen/Colleen.s
 asm/Colleen/Colleen
 asm/Grace/Grace
 asm/Grace/Grace_kid.s
+asm/Sully/Sully.o
+asm/Sully/Sully
+asm/Sully/Sully_*
